@@ -13,6 +13,11 @@
 		F280F7CF20F868D500B53730 /* MyHealthProj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F280F7CD20F868D500B53730 /* MyHealthProj.xcdatamodeld */; };
 		F280F7D120F868DC00B53730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F280F7D020F868DC00B53730 /* Assets.xcassets */; };
 		F280F7D420F868DC00B53730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F280F7D220F868DC00B53730 /* LaunchScreen.storyboard */; };
+		F280F7DE20F86F8600B53730 /* homeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F7DD20F86F8600B53730 /* homeScreenViewController.swift */; };
+		F280F7E520F88C6A00B53730 /* MedicationReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F7E420F88C6A00B53730 /* MedicationReminderViewController.swift */; };
+		F280F7E920F8A35A00B53730 /* medicalDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F7E820F8A35A00B53730 /* medicalDeviceViewController.swift */; };
+		F280F7EF20F8B5FB00B53730 /* dashboardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F7EE20F8B5FB00B53730 /* dashboardCollectionViewController.swift */; };
+		F280F7F720F8C2E200B53730 /* dashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F280F7F620F8C2E200B53730 /* dashboardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F280F7D020F868DC00B53730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F280F7D320F868DC00B53730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F280F7D520F868DC00B53730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F280F7DD20F86F8600B53730 /* homeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreenViewController.swift; sourceTree = "<group>"; };
+		F280F7E420F88C6A00B53730 /* MedicationReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationReminderViewController.swift; sourceTree = "<group>"; };
+		F280F7E820F8A35A00B53730 /* medicalDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medicalDeviceViewController.swift; sourceTree = "<group>"; };
+		F280F7EE20F8B5FB00B53730 /* dashboardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardCollectionViewController.swift; sourceTree = "<group>"; };
+		F280F7F620F8C2E200B53730 /* dashboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashboardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,10 @@
 		F280F7C520F868D500B53730 /* MyHealthProj */ = {
 			isa = PBXGroup;
 			children = (
+				F280F7EA20F8B5B100B53730 /* Dashboard */,
+				F280F7E620F8A32600B53730 /* MedicalDeviceScreen */,
+				F280F7E020F88BB600B53730 /* MedicationReminderScreen */,
+				F280F7DB20F86F4F00B53730 /* HomeScreen */,
 				F280F7C620F868D500B53730 /* AppDelegate.swift */,
 				F280F7C820F868D500B53730 /* ViewController.swift */,
 				F280F7CA20F868D500B53730 /* Main.storyboard */,
@@ -65,6 +79,71 @@
 				F280F7CD20F868D500B53730 /* MyHealthProj.xcdatamodeld */,
 			);
 			path = MyHealthProj;
+			sourceTree = "<group>";
+		};
+		F280F7DB20F86F4F00B53730 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F280F7DC20F86F6F00B53730 /* Controller */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		F280F7DC20F86F6F00B53730 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F280F7DD20F86F8600B53730 /* homeScreenViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F280F7E020F88BB600B53730 /* MedicationReminderScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F280F7E120F88BC500B53730 /* Controller */,
+			);
+			path = MedicationReminderScreen;
+			sourceTree = "<group>";
+		};
+		F280F7E120F88BC500B53730 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F280F7E420F88C6A00B53730 /* MedicationReminderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F280F7E620F8A32600B53730 /* MedicalDeviceScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F280F7E720F8A33B00B53730 /* Controller */,
+			);
+			path = MedicalDeviceScreen;
+			sourceTree = "<group>";
+		};
+		F280F7E720F8A33B00B53730 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F280F7E820F8A35A00B53730 /* medicalDeviceViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F280F7EA20F8B5B100B53730 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F280F7EB20F8B5B800B53730 /* Controller */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		F280F7EB20F8B5B800B53730 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F280F7EE20F8B5FB00B53730 /* dashboardCollectionViewController.swift */,
+				F280F7F620F8C2E200B53730 /* dashboardCollectionViewCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +218,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F280F7C920F868D500B53730 /* ViewController.swift in Sources */,
+				F280F7F720F8C2E200B53730 /* dashboardCollectionViewCell.swift in Sources */,
+				F280F7E520F88C6A00B53730 /* MedicationReminderViewController.swift in Sources */,
+				F280F7DE20F86F8600B53730 /* homeScreenViewController.swift in Sources */,
 				F280F7C720F868D500B53730 /* AppDelegate.swift in Sources */,
+				F280F7E920F8A35A00B53730 /* medicalDeviceViewController.swift in Sources */,
 				F280F7CF20F868D500B53730 /* MyHealthProj.xcdatamodeld in Sources */,
+				F280F7EF20F8B5FB00B53730 /* dashboardCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +368,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Happiest Minds (372V9PWM5W)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 49K755643D;
 				INFOPLIST_FILE = MyHealthProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = subhashOrg.MyHealthProj;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.happiestminds.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc32d686-9695-4f34-a50b-5702f74daa03";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.happiestminds.*";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,14 +390,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Happiest Minds (372V9PWM5W)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 49K755643D;
 				INFOPLIST_FILE = MyHealthProj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = subhashOrg.MyHealthProj;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.happiestminds.-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc32d686-9695-4f34-a50b-5702f74daa03";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.happiestminds.*";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
