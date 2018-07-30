@@ -10,6 +10,6 @@ import UIKit
 
 class dashboardCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var myLabel: UILabel! 
     
 }
