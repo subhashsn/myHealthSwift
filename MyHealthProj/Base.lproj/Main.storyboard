@@ -64,11 +64,10 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AM9-b4-ud2">
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
-                                                <color key="backgroundColor" red="0.51377769029999998" green="0.39226263620000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="36T-Sk-kgc"/>
                                                 </constraints>
-                                                <state key="normal" backgroundImage="medication_reminder"/>
+                                                <state key="normal" title="UIButton"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Taq-KQ-Lq8">
                                                 <rect key="frame" x="105" y="0.0" width="75" height="75"/>
